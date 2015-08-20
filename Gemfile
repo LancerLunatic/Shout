@@ -22,7 +22,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'carrierwave'
+gem 'carrierwave'  #upload photo goodness to forms 08/20/2015
+
+gem 'mini_magick' #photos that are uploaded wil be autosized
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
