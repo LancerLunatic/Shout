@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<%= image_tag @restaurant.image_url %> 
+<%= image_tag @restaurant.image_url %> <!-- shows us image in page -->
 <p>
   <strong>Name:</strong>
   <%= @restaurant.name %>
@@ -22,4 +22,4 @@
 </p>
 
 <%= link_to 'Edit', edit_restaurant_path(@restaurant), class:"btn btn-link" %> |
-<%= link_to 'Back', restaurants_path, class:"btn btn-link" %>
+<%= link_to 'Back', restaurants_path, class:"btn btn-link" %> <!-- adds space between buttons by putting them inside a containing. -->
